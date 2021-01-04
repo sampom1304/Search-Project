@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .grid {
+                display: grid;
+                padding: 20px;
+                grid-row-gap: 0px;
+                grid-template-rows: 50px 20px auto;
+                text-align: right;
+            }
+
+            .grid-item {
+                background-color: white;
+                font-size: 15px;
+                padding: 10px;
+                text-align: right;
+            }
+
+            form {
+              padding: 200px 100px;
+              text-align: center;
+            }
+            #bar {
+              border-radius: 25px;
+            }
+            #button {
+              text-align:center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="grid">
+            <a href = "image.html">Image Search</a>
+            <a href = "advanced.html">Advanced Search</a>
+        </div>
+        <form action="https://google.com/search">
+            <input id="bar" type="text" name="q">
+            <input id="button" type="submit" value="Google Search">
+        </form>
+    </body>
+</html>

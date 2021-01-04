@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Image</title>
+        <style>
+            .grid {
+                display: grid;
+                padding: 20px;
+                grid-row-gap: 0px;
+                grid-template-rows: 50px 20px auto;
+                text-align: right;
+            }
+            form {
+              padding: 200px 100px;
+              text-align: center;
+            }
+            #bar {
+              border-radius: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class = "grid">
+          <a href = "index.html">Google Search</a>
+        </div>
+        <form action="http://images.google.com/images?um=1&hl=en&safe=active&nfpr=1&q=your_search_query">
+            <input id="bar" type="text" name="q">
+            <input type="submit" value="Google Image Search">
+        </form>
+    </body>
+</html>
