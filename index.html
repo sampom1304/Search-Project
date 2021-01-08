@@ -8,7 +8,7 @@
                 display: grid;
                 padding: 20px;
                 grid-row-gap: 0px;
-                grid-template-rows: 50px 20px auto;
+                grid-template-rows: 50px 50px auto;
                 text-align: right;
             }
 
@@ -36,9 +36,14 @@
             <a href = "image.html">Image Search</a>
             <a href = "advanced.html">Advanced Search</a>
         </div>
+        <img src="google.png" width="300">
         <form action="https://google.com/search">
-            <input id="bar" type="text" name="q">
-            <input id="button" type="submit" value="Google Search">
+          <input type="text" name="q" class="box" id="bar">
+          <br>
+          <div>
+            <input type="submit" name="btnK" value="Google Search" class="button">
+            <input type="submit" name="btnI" value="I am Feeling Lucky" class="button">
+          </div>
         </form>
     </body>
 </html>
