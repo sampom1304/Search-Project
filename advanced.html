@@ -18,18 +18,21 @@
               background-color: blue;
               color: white;
             }
+            #googlesearch {
+              text-decoration:none;
+            }
         </style>
     </head>
     <body>
         <div class = "grid">
-          <a href = "index.html">Google Search</a>
+          <a id="googlesearch" href = "index.html">Google Search</a>
         </div>
         <form action="https://google.com/search">
-             All these words:<input type="text" name="as_q" >
-            <br><br>Exact word/phrase:<input type="text" name="as_epq" >
-            <br><br>Any of these words:<input type="text" name="as_oq" >
-            <br><br>None of these words:<input type="text" name="as_eq" >
-           <br><br> <input id="button" type="submit" value="Advanced Search">
-</form>
+          All these words:<input type="text" name="as_q"><br><br>
+          Exact word/phrase:<input type="text" name="as_epq"><br><br>
+          Any of these words:<input type="text" name="as_oq"><br><br>
+          None of these words:<input type="text" name="as_eq"><br><br>
+          <input id="button" type="submit" value="Advanced Search">
+        </form>
     </body>
 </html>

@@ -2,7 +2,6 @@
 <html lang="en">
     <head>
         <title>Search</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <style>
             .grid {
                 display: grid;
@@ -23,23 +22,29 @@
               padding: 200px 100px;
               text-align: center;
             }
-            #bar {
+            #searchbar {
               border-radius: 25px;
             }
             #button {
               text-align:center;
             }
+
+            #image {
+              text-decoration:none;
+            }
+
+            #advanced {
+              text-decoration:none;
+            }
         </style>
     </head>
     <body>
         <div class="grid">
-            <a href = "image.html">Image Search</a>
-            <a href = "advanced.html">Advanced Search</a>
+            <a id="image" href = "image.html">Image Search</a>
+            <a id="advanced" href = "advanced.html">Advanced Search</a>
         </div>
-        <img src="google.png" width="300">
         <form action="https://google.com/search">
-          <input type="text" name="q" class="box" id="bar">
-          <br>
+          <input type="text" name="q" id="searchbar">
           <div>
             <input type="submit" name="btnK" value="Google Search" class="button">
             <input type="submit" name="btnI" value="I am Feeling Lucky" class="button">
